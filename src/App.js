@@ -5,6 +5,7 @@ import Navbar from "./components/navigation/Navbar";
 import Login from "./components/sessions/Login";
 import Logout from "./components/sessions/Logout";
 import Signup from "./components/sessions/Signup";
+import Calendar from "./components/calendar/Calendar";
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
         <Route path="/login" element={ <Login /> } />
         <Route path="/logout" element={ <Logout /> } />
         <Route path="/signup" element={ <Signup /> } />
+        <Route path="/calendar" element={ <Calendar /> } />
+
       </Routes>
     </Router>
 

@@ -1,6 +1,6 @@
 #form-container {
-    background: white;
-    border: 1px solid #dedede;
+    background: rgb(33, 33, 33);
+    border: 2px solid rgb(0,236,236);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -9,62 +9,60 @@
     padding: 30px 50px;
  }
  h2{
-     margin-top: 50px;
+     margin-top: 60px;
      font-family: "The Bold Font";
      text-align: center;
      font-size: 40px;   
+     color: white;
  }
+ label{
+    color: white;
+ }
+  
  input[name="username"]:not(.edit-input) { 
-     border: 1px solid #d9d9d9;
-     border-radius: 4px;
-     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-     box-sizing: border-box;
-     padding: 10px;
-     margin-bottom: 20px;
-     width: 100%;
- }
+    border: 2px solid;
+    border-radius: 4px;
+    border-color:  rgb(45, 45, 45);
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    color: white;
+
+}
  input[name="firstName"]:not(.edit-input) { 
-     border: 1px solid #d9d9d9;
-     border-radius: 4px;
-     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-     box-sizing: border-box;
-     padding: 10px;
-     margin-bottom: 20px;
-     width: 100%;
+    border: 2px solid;
+    border-radius: 4px;
+    border-color:  rgb(45, 45, 45);
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    color: white;
+
  }
  input[name="lastName"]:not(.edit-input) { 
-     border: 1px solid #d9d9d9;
-     border-radius: 4px;
-     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-     box-sizing: border-box;
-     padding: 10px;
-     margin-bottom: 20px;
-     width: 100%;
+    border: 2px solid;
+    border-radius: 4px;
+    border-color:  rgb(45, 45, 45);
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    color: white;
+
+
  }
- input[name="image"]:not(.edit-input) { 
-     border: 1px solid #d9d9d9;
-     border-radius: 4px;
-     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-     box-sizing: border-box;
-     padding: 20px;
-     margin-bottom: 20px;
-     width: 100%;
- }
- textarea[name="bio"]:not(.edit-input) { 
-     border: 1px solid #d9d9d9;
-     border-radius: 4px;
-     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-     box-sizing: border-box;
-     padding: 10px;
-     margin-bottom: 30px;
-     width: 100%;
- }
+
  input[type="submit"] {
      border: 1px solid;
-     border-radius: 0px;
+     border-radius: 5px;
      background-color: rgba(255, 255, 255, 0);
-     border-color: rgb(255, 2, 2);
-     color: rgb(0, 1, 66);
+     border-color: rgb(0,236,236);
+     color: white;
      padding: 10px;
      margin-bottom: 10px;
      width: 100%;
@@ -74,16 +72,7 @@
      background: rgb(255, 2, 2);
      color: white;
  }
- 
- input[name="username"]:not(.edit-input) { 
-     border: 1px solid #d9d9d9;
-     border-radius: 4px;
-     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-     box-sizing: border-box;
-     padding: 20px;
-     margin-bottom: 20px;
-     width: 100%;
- }
+
  select{
      border: 1px solid #d9d9d9;
      border-radius: 4px;
@@ -92,36 +81,4 @@
      padding: 10px;
      margin-bottom: 20px;
      width: 100%;
- }
- input[id="zip"]:not(.edit-input) { 
-     border: 1px solid #d9d9d9;
-     border-radius: 4px;
-     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-     box-sizing: border-box;
-     padding: 10px;
-     margin-bottom: 20px;
-     width: 100%;
- }
- .switch{
-     display: flex;
-     width: 100vw;
-     height: 100px;
-     justify-content: center;
-     align-items: center;
- }
- 
- .switch label{
-     margin: 100px;
- }
- 
- #light{
-     background-color: white
- }
- 
- #dark{
-     background-color: rgb(22, 175, 106);
- }
- 
- #dark h2{
-     color: white;
  }
